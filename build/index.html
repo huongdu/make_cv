@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/dist/output.css">
+</head>
+
+<body>
+    <div class="container mx-auto">
+        <nav class="text-black w-full uppercase tracking-[0.22px] md:text-[16px] p-11">
+            <div class="flex flex-row justify-between items-center">
+                <div class="hover:cursor-pointer">
+                    <h5>Nguyen Le Huong Du</h5>
+                </div>
+                <ul class="hidden md:flex flex-row gap-16 justify-end items-center">
+                    <li><a href="#" class="pseudo">Home</a></li>
+                    <li><a href="#" class="pseudo">About</a></li>
+                    <li><a href="#" class="pseudo">Projects</a></li>
+                    <li><a href="#" class="pseudo">Contact</a></li>
+
+                </ul>
+                <div class="md:hidden">
+                    <div class="space-y-1 rotate-180" id="hamburger">
+                        <div class="w-6 h-0.5 transition-all bg-black"></div>
+                        <div class="w-6 h-0.5 transition-all bg-black"></div>
+                        <div class="w-6 h-0.5 transition-all bg-black"></div>
+                    </div>
+                    <ul class="flex flex-col justify-start gap-5 h-screen absolute top-0 left-0 p-10 items-start -translate-x-full transition-all"
+                        id="mobile-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Contact</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="text-black tracking-[0.22px] max-w-sm md:max-w-lg p-11 text-center">
+            <div class="flex-col">
+                <div class="text-[45px] uppercase md:text-[40px] text-center">
+                    <h2>Hi, I'm a front-end developer</h2>
+                </div>
+                <div class="text-[10px] md:text-[12px] text-justify">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores soluta aut facilis qui minus
+                        modi,
+                        deleniti dolorum velit reiciendis sequi? Nulla, velit minima! Molestiae, ipsum quod
+                        necessitatibus
+                        odit
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+</html>
